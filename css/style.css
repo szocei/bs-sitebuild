@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    margin-top: 3;
+
+
 }
 
 @font-face {
@@ -29,7 +32,6 @@ body {
 .header {
     background-image: url("../img/bg-pattern.png"), linear-gradient(to right, rgb(218, 36, 49) 0%, rgb(122, 67, 151) 100%);
     background-repeat: repeat;
-
 }
 
 .cim {
@@ -70,8 +72,9 @@ h1 {
 .btn-telos {
     border: 2px solid #fff;
     color: #fff;
+    padding: 0.4em;
     font-family: "Lato";
-
+    font-size: 0.8rem;
 }
 
 
@@ -91,7 +94,8 @@ h1 {
 
 }
 
-.discover {
+.discover,
+.weLove {
     background-color: rgb(250, 200, 50);
 }
 
@@ -102,6 +106,7 @@ h1 {
 
 p {
     font-size: 1rem;
+    font-family: 'Muli';
 }
 
 .storok {
@@ -115,6 +120,48 @@ p {
 .iconP {
     font-size: 4rem;
     color: maroon;
+}
+
+.stopWaiting {
+    background: url("../img/bg-cta.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.stopH1 {
+    font-size: 4em;
+}
+
+#heart {
+    color: red;
+}
+
+.gplus {
+    color: red;
+    opacity: 0.9;
+}
+
+.gplus:hover {
+    color: red;
+    opacity: 1;
+
+}
+
+.iconSoc {
+    opacity: 0.9;
+    font-size: 5rem;
+}
+
+.iconSoc:hover {
+    opacity: 1;
+}
+
+.vonal {
+    border-bottom: 4px solid rgba(200, 200, 200, 0.9);
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -132,7 +179,7 @@ p {
     }
 
     .teloszoveg {
-        width: 80vw;
+        margin-left: 5vw;
         font-size: 2rem;
         font-weight: 100;
         font-family: "Muli";
@@ -144,17 +191,13 @@ p {
         max-width: 60vw;
     }
 
-    .p__btn {
-        margin-top: 20vh;
-    }
-
     .menuSpan {
         border: 1px solid #888;
         border-radius: 5%;
         padding: 0 10px;
+        font-size: 1em;
+
     }
-
-
 
     .discover {
         display: flex;
@@ -172,5 +215,23 @@ p {
 
     .imgTelo {
         max-width: 60vw;
+    }
+
+    .stopH1 {
+        font-size: 3em;
+    }
+
+    .p__btn1 {
+        text-align: center;
+        padding-top: 30px;
+
+    }
+
+    btn {
+        padding: 1.4rem
+    }
+
+    .navbar-toggler {
+        width: 8rem;
     }
 }
