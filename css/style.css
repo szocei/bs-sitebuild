@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url("fonts/muli/Muli-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Catamaran";
+    src: url("fonts/catamaran/Catamaran-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/lato/Lato-Light.ttf");
+    font-weight: 200;
+}
+
+.topSect {
+    background-image: url("../img/bg-pattern.png"), linear-gradient(to right, rgb(218, 36, 49) 0%, rgb(122, 67, 151) 100%);
+    background-repeat: repeat;
+}
+
+.header {
+    background-image: url("../img/bg-pattern.png"), linear-gradient(to right, rgb(218, 36, 49) 0%, rgb(122, 67, 151) 100%);
+    background-repeat: repeat;
+
+}
+
+.cim {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(240, 200, 40)
+}
+
+.menuspan {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+h2,
+h1 {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+    color: #111;
+    font-size: 1rem;
+    transition-duration: 300;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.cim:hover {
+    color: #fff;
+}
+
+.btn-telos {
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: "Lato";
+
+}
+
+
+.btn-telos:hover {
+
+    border: 2px solid #fdcc52;
+    color: #fff;
+    background-color: #fdcc52;
+    transition-duration: 300;
+}
+
+.teloszoveg {
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: "Muli";
+
+}
+
+.discover {
+    background-color: rgb(250, 200, 50);
+}
+
+.discover h1 {
+    font-size: 3.7rem;
+    font-weight: 100;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.storok {
+    width: 8rem;
+}
+
+.imgTelo {
+    max-width: 35vw;
+}
+
+.iconP {
+    font-size: 4rem;
+    color: maroon;
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        background-color: #fff;
+        background: none;
+    }
+
+    .cim:hover {
+        color: rgb(240, 200, 40);
+    }
+
+    .navbar {
+        color: #696969;
+    }
+
+    .teloszoveg {
+        width: 80vw;
+        font-size: 2rem;
+        font-weight: 100;
+        font-family: "Muli";
+        text-align: center;
+        margin-top: 30vh;
+    }
+
+    .btn-telos {
+        max-width: 60vw;
+    }
+
+    .p__btn {
+        margin-top: 20vh;
+    }
+
+    .menuSpan {
+        border: 1px solid #888;
+        border-radius: 5%;
+        padding: 0 10px;
+    }
+
+
+
+    .discover {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .googlePlay {
+        padding-top: 50px;
+    }
+
+    .storok {
+        width: 40%;
+    }
+
+    .imgTelo {
+        max-width: 60vw;
+    }
+}
