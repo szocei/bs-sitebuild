@@ -1,8 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    /* margin-top: 3; */
 
+}
+
+.scrollHeader {
+    background-image: none;
+    background-color: #fff;
+    color: rgb(30, 30, 30);
 
 }
 
@@ -37,8 +46,19 @@ body {
 .cim {
     font-family: 'Catamaran', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: rgb(240, 200, 40)
+    color: #f0c828;
 }
+
+.cim:hover {
+    color: #fff;
+}
+
+.cimScroll {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #1e1e1e;
+}
+
 
 .menuspan {
     font-family: 'Catamaran', Arial, Helvetica, sans-serif;
@@ -62,12 +82,9 @@ h1 {
 }
 
 .nav-link:hover {
-    color: #fff;
+    color: #f0c828;
 }
 
-.cim:hover {
-    color: #fff;
-}
 
 .btn-telos {
     border: 2px solid #fff;
