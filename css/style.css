@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    margin-top: 3;
+    /* margin-top: 3; */
 
 
 }
@@ -42,7 +42,7 @@ body {
 
 .menuspan {
     font-family: 'Catamaran', Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .navbar {
@@ -72,7 +72,7 @@ h1 {
 .btn-telos {
     border: 2px solid #fff;
     color: #fff;
-    padding: 0.4em;
+    padding: 1.1rem;
     font-family: "Lato";
     font-size: 0.8rem;
 }
@@ -162,6 +162,19 @@ p {
 .vonal {
     border-bottom: 4px solid rgba(200, 200, 200, 0.9);
 
+}
+
+.footer {
+    background-color: rgb(34, 34, 34);
+}
+
+.footerDiv {
+    color: rgb(94, 94, 94);
+}
+
+.footerLink:hover {
+    color: #fdcc52;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 992px) {
